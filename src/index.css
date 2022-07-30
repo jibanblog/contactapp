@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main_div{
+  height: 200vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.child_div{
+  margin-top: 50px;
+}
+
+
+.child_div h1{
+  height: 40px;
+  width: 100%;
+  background-color: rgb(13, 183, 235);
+  color: white;
+  text-transform: capitalize;
+  font-weight: lighter;
+  text-align: center;
+  
+}
+
+.srch{
+  margin-top: 20px;
+  height: 30px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid burlywood;
+  font-size: 80%;
+  padding-left: 15px;
+
+}
+
+.form_div{
+  margin-top: 40px;
+}
+
+.form_div label{
+  margin-right: 20px;
+  color: black;
+}
+
+.form_div input{
+  margin: 20px 0px;
+  height: 25px;
+  width: 200px;
+}
+
+.form_div button{
+  height: 40px;
+  width: 80px;
+  background-color: rgb(154, 13, 235);
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: bold;
+  margin: 0px 100px;
+}
+
+.table_div{
+  margin-top:30px;
+ position:relative;
+}
+
+.tdiv1{
+  position:absolute;
+  
+  
+}
+
+.table_div .tdiv1 th{
+  background-color: rgb(150, 58, 73);
+  color: white;
+}
+.table_div .tdiv1 td{
+  background-color: rgb(28, 160, 131);
+  text-align: center;
+  color: black;  
+
+}
+
+
+.table_div .tdiv2 th{
+  background-color:rgb(150, 58, 73);
+  color: white;
+}
+.table_div .tdiv2 td{
+  text-align: center;
+  background-color: rgb(28,160,131);
+  color: black;
+  height: 40px;
+  width: 100px;
+}
